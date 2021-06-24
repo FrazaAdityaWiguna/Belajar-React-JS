@@ -1,25 +1,30 @@
 import React, { useState } from 'react';
-import navbar from './Navbar';
 
 const Home = () => {
-  // let name = 'Fraza';
-  const [name, setName] = useState('Fraza');
-  const [age, setAge] = useState(19);
-
-  const handleClick = () => {
-    setName('King');
-    setAge('20');
-  };
+  const [blogs, setBlogs] = useState([
+    { title: 'My new website', body: 'lorem ipsum...', author: 'Fraza', id: 1 },
+    {
+      title: 'Welcome to My Blog',
+      body: 'lorem ipsum...',
+      author: 'Dihas',
+      id: 2,
+    },
+    {
+      title: 'Web Dev top tips',
+      body: 'lorem ipsum...',
+      author: 'Erik',
+      id: 3,
+    },
+  ]);
 
   return (
     <div className="home">
-      <h2>Homepage</h2>
-      <p>
-        {name} is {age} years old
-      </p>
-      <button type="button" onClick={handleClick}>
-        Click me
-      </button>
+      {blogs.map((blog) => (
+        <div className="blog-preview" key={blog.id}>
+          <h2>{blog.title}</h2>
+          <p>Written by {blog.author}</p>
+        </div>
+      ))}
     </div>
   );
 };
