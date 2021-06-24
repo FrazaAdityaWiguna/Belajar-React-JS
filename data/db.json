@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "My First blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar facilisis nisl et efficitur. Phasellus efficitur facilisis quam et consectetur. Nullam pellentesque dui tortor, vitae vulputate libero tincidunt quis. Mauris fringilla felis non ex efficitur malesuada. Nulla non ornare ligula. Phasellus facilisis sapien et dui ornare porttitor. Curabitur velit lorem, interdum in mauris nec, finibus auctor nibh. Phasellus ac vestibulum sapien. Sed magna felis, tincidunt vitae sem porttitor, dictum dignissim lectus. Nulla pharetra turpis eu fermentum tincidunt. Suspendisse sem velit, condimentum nec orci eu, maximus sodales libero. Aenean luctus purus ac velit aliquam, non pharetra metus porttitor. Suspendisse potenti. Phasellus suscipit iaculis pulvinar. Ut nisi lectus, dictum sit amet nisl quis, faucibus vestibulum risus.",
+      "author": "Fraza",
+      "id": 1
+    },
+    {
+      "title": "Welcome to our family",
+      "body": "Pellentesque maximus dolor vitae elit suscipit, ac laoreet nunc ullamcorper. Cras libero nulla, pulvinar dignissim nisl lacinia, bibendum sodales tortor. Praesent suscipit neque libero, aliquam molestie nibh rhoncus in. Duis tellus dui, scelerisque sit amet quam nec, aliquet vulputate sem. Ut placerat tellus quis mi accumsan rhoncus. Pellentesque at purus in mauris interdum scelerisque. Nullam id sodales magna. Vivamus sit amet mauris nisi. Vivamus fringilla egestas diam, sit amet malesuada mauris efficitur et. Sed at nulla in nunc mollis consectetur. Vivamus iaculis enim arcu, sit amet hendrerit urna venenatis sit amet. Donec non feugiat leo. Pellentesque sagittis metus eleifend, hendrerit nibh quis, maximus eros. Suspendisse tempus nisl risus, nec cursus enim finibus ac. Mauris eget consectetur massa, eu pellentesque leo.",
+      "author": "Dihas",
+      "id": 2
+    },
+    {
+      "title": "How to become proplayer",
+      "body": "Praesent sodales ligula ac leo volutpat ultrices eu quis tellus. Vestibulum id orci eget arcu pretium ornare. Sed sed vestibulum felis, eget rhoncus mauris. Donec at vulputate massa. Cras velit purus, maximus a sapien non, gravida semper erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc semper, elit quis convallis consequat, risus magna commodo lacus, a feugiat quam sem quis turpis. Aliquam at consectetur enim.",
+      "author": "Erik",
+      "id": 3
+    },
+    {
+      "title": "Leader Of BigDream",
+      "body": "Duis leo diam, sagittis in arcu at, pulvinar maximus mi. Nunc sollicitudin neque sed ante venenatis, id dapibus orci pretium. Duis id eros elementum enim auctor euismod nec id lacus. Vestibulum vehicula libero sit amet ex posuere, elementum ultricies risus faucibus. Nam eu odio quam. Maecenas elementum aliquet neque nec viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "author": "Fraza",
+      "id": 4
+    }
+  ]
+}
