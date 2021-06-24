@@ -1,24 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import navbar from './Navbar';
 
-const handleClick = (e) => {
-  console.log('Hello, Everyone!', e);
-};
+const Home = () => {
+  // let name = 'Fraza';
+  const [name, setName] = useState('Fraza');
+  const [age, setAge] = useState(19);
 
-const handleClickAgain = (name, e) => {
-  console.log(`Hello, ${name}!`, e.target);
-};
+  const handleClick = () => {
+    setName('King');
+    setAge('20');
+  };
 
-const Home = () => (
-  <div className="home">
-    <h2>Homepage</h2>
-    <button type="button" onClick={handleClick}>
-      Click me
-    </button>
-    <button type="button" onClick={(e) => handleClickAgain('Fraza', e)}>
-      Click me again!
-    </button>
-  </div>
-);
+  return (
+    <div className="home">
+      <h2>Homepage</h2>
+      <p>
+        {name} is {age} years old
+      </p>
+      <button type="button" onClick={handleClick}>
+        Click me
+      </button>
+    </div>
+  );
+};
 
 export default Home;
