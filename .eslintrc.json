@@ -5,7 +5,7 @@
   "rules": {
     "prettier/prettier": ["error", { "singleQuote": true }],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "no-unused-vars": "warn",
+    "no-unused-vars": "off",
     "no-console": "off",
     "func-names": "off",
     "no-process-exit": "off",
